@@ -47,6 +47,8 @@ dev_dependencies:
   # package. See that file for information about deactivating specific lint
   # rules and activating additional ones.
   flutter_lints: ^2.0.0
+  new_gradient_app_bar: ^0.1.4
+  flutter_html: ^3.0.0-alpha.2
 
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec
@@ -58,6 +60,14 @@ flutter:
   # included with your application, so that you can use the icons in
   # the material Icons class.
   uses-material-design: true
+  assets:
+    - images/
+#    - download.png
+#    - images/images.jpg
+#    - images/images (2).png
+#    - images/images (7).jpg
+#    - images/images (8).jpg
+#    - images/images (9).jpg
 
   # To add assets to your application, add an assets section, like this:
   # assets:
